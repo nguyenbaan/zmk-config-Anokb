@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Ryan Cross
+# SPDX-License-Identifier: MIT
+
+config SHIELD_ANOKB_LEFT
+    def_bool $(shields_list_contains,Anokb_left)
+
+config SHIELD_ANOKB_RIGHT
+    def_bool $(shields_list_contains,Anokb_right)
